@@ -51,7 +51,7 @@ app.delete('/api/notes/:id',function(req,res){
     path.join(__dirname, './db/db.json'),
     JSON.stringify({notes}, null, 2)
   )
-  res.send(result)
+  res.send(notes)
 });
 
 // app.get('/api/animals/:id', (req, res) => {
