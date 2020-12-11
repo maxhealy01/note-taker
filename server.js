@@ -54,18 +54,6 @@ app.delete('/api/notes/:id',function(req,res){
   res.send(notes)
 });
 
-// app.get('/api/animals/:id', (req, res) => {
-//   const result = findById(req.params.id, animals);
-//   if (result) {
-//     res.json(result);
-//   } else {
-//     res.send(404);
-//   }
-// })
-// function findById(id, animalsArray) {
-//   const result = animalsArray.filter(animal => animal.id === id)[0];
-//   return result;
-// }
 app.listen(PORT, () => {
   console.log(`API server now on port ${PORT}!`);
 })
