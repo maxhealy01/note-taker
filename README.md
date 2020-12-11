@@ -9,7 +9,6 @@ Check out the app <a href = 'https://note-taker-healy.herokuapp.com/'>Here!</a>
 ## Table of Contents
 
 * [Usage](#usage)<br>
-* [Contributing](#contributing)<br>
 * [Questions](#questions)
 
 ## Usage
